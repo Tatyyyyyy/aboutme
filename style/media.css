@@ -1,0 +1,35 @@
+@media(max-width:1100px) {
+    .social {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .main-bottom-box {
+        justify-content: center;
+    }
+    .main-top-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-top-right p {
+        text-align: center;
+    }
+}
+
+@media(max-width:800px) {
+    .header-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header-content {
+        height: 500px;
+    }
+    header ul {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
+    .header-content h1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+}

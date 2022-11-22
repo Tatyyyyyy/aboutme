@@ -14,7 +14,9 @@ ul {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -69,6 +71,7 @@ header ul a:hover {
     line-height: 48px;
     color: #000000;
     margin-bottom: 150px;
+    text-align: center;
 }
 
 .call {
@@ -78,7 +81,7 @@ header ul a:hover {
     color: #000000;
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 5px 23px 15px 24px;
+    padding: 5px 23px 7px 24px;
     transition: background 500ms, color 500ms;
 }
 
@@ -106,16 +109,27 @@ header ul a:hover {
     justify-content: space-between;
 }
 
+.main-top-left {
+    max-width: 500px;
+    width: 100%;
+}
+
+.main-top-left img {
+    width: 100%;
+}
+
 .main-top-right p {
     color: white;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    width: 427px;
+    max-width: 427px;
+    width: 100%;
 }
 
 .main-top-right {
-    width: 465px;
+    max-width: 465px;
+    width: 100%;
 }
 
 .main-top-right h3 {
@@ -133,7 +147,8 @@ header ul a:hover {
 }
 
 .item {
-    width: 312px;
+    max-width: 312px;
+    width: 100%;
     background: #B12B06;
     border-radius: 10px;
     display: flex;
